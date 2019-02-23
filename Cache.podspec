@@ -13,11 +13,10 @@ Pod::Spec.new do |s|
   s.tvos.deployment_target = '9.2'
 
   s.requires_arc = true
+  s.swift_version = '4.2'
   s.ios.source_files = 'Source/{iOS,Shared}/**/*'
   s.osx.source_files = 'Source/{Mac,Shared}/**/*'
   s.tvos.source_files = 'Source/{iOS,Shared}/**/*'
 
   s.frameworks = 'Foundation'
-
-  s.pod_target_xcconfig = { 'SWIFT_VERSION' => '4.1' }
 end
