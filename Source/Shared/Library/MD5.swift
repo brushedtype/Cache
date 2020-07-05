@@ -11,7 +11,7 @@
  * See http://pajhome.org.uk/crypt/md5 for more info.
  */
 
-/**
+/*
  *  SwiftHash
  *  Copyright (c) Khoa Pham 2017
  *  Licensed under the MIT license. See LICENSE file.
