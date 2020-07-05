@@ -6,7 +6,7 @@ import PackageDescription
 let package = Package(
     name: "Cache",
     platforms: [
-        .macOS(.v10_11), .iOS(.v13), .tvOS(.v9)
+        .macOS(.v10_11), .iOS(.v12), .tvOS(.v9)
     ],
     products: [
         .library(name: "Cache", targets: ["Cache"]),
